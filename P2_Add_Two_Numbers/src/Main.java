@@ -8,6 +8,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 public class Main {
   private static void printList(ListNode l) {
+    Integer.toString(Integer.MAX_VALUE); 
     System.out.print("[");
     while (l != null) {
       System.out.print(l.val);
